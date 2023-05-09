@@ -1,0 +1,15 @@
+import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
+
+const App = () => {
+  return (
+    <div className="App">
+      <Header />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+// https://github.com/sane4ka-v/learn-english/compare
