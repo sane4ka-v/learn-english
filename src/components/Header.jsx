@@ -1,12 +1,10 @@
 import './../App.css';
-const items = [1, 2, 3];
-
+let date = '1 Января'
 const Header = () => {
   return (
     <header className='App-header'>
-        {items.map((item, index) => {
-          return <div className='square-red' id={index}></div>
-        })} 
+      <h2 className='date'>{date}</h2>
+      <h1>Добрый вечер :0 Что вы хотите сделать?</h1>
     </header>
     );
 }

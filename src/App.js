@@ -1,12 +1,14 @@
 import './App.css';
-import Footer from './components/Footer';
 import Header from './components/Header';
+import SideBar from './components/SideBar';
+import WorkSpace from './components/WorkSpace';
 
 const App = () => {
   return (
     <div className="App">
       <Header />
-      <Footer />
+      <SideBar />
+      <WorkSpace />
     </div>
   );
 }
