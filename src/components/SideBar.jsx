@@ -8,15 +8,15 @@ const SideBar = () => {
             <a>(English)</a>
         </div>
         <div className='link-to-page'>
-            <img src='C:\react-app-learn-english\learn-english\images\image 5.png' />
+            <img src='./../images/image 5.png' />
             <a>Dictionari</a>
         </div>
         <div className='link-to-page'>
-            <img src='C:\react-app-learn-english\learn-english\images\image 6.png' />
+            <img src='./../images/image 6.png' />
             <a>Account</a>
         </div>
         <div className='link-to-page'>
-            <img src='C:\react-app-learn-english\learn-english\images\image 7.png' />
+            <img src='./../images/image 7.png' />
             <a>Search by tags/date</a>
         </div>
       </div>
